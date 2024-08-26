@@ -325,21 +325,21 @@ img {
 
 /* Original Skill Bars */
 .skills__html {
-  width: 95%;
+  width: 90%;
 }
 .skills__css {
   width: 85%;
 }
 .skills__js {
-  width: 65%;
+  width: 80%;
 }
 .skills__ux {
-  width: 85%;
+  width: 5%;
 }
 
 /* Additional Skill Bars */
 .skills__python {
-  width: 75%;
+  width: 100%;
 }
 
 .skills__react {
