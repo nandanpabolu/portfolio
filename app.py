@@ -63,4 +63,7 @@ with st.form("contact_form"):
             st.error("Please fill out all fields.")
         else:
             success = send_email(name, email, message)
-     
+            if success:
+                st.success("Your message has been sent!")
+            else:
+                st.error("There was an error sending your message. Please try again.")
